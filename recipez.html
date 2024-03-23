@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+    <meta name="viewport" content="width-device-width,initial-scale=1.0"
+      <meta charset="utf-8">
+      <title>Recipez</title>
+      <script src="recipez.js"></script>
+      <link rel="stylesheet" href="recipezz.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+  </head>
+   <body>
+    <header> <div class="logo">Recipez</div>
+      <form>
+       
+        
+      </form>
+      
+      </div>
+      
+
+      <div id="icons">
+        <a href="#" class="fas fa-home" id="home"></a> 
+        <a href="#"  class="fas fa-heart" id="heart"></a> 
+        <a href="#" class="fas fa-user" id="log" onclick="showlog()"></a>
+    
+      <div class="container3" id="form">
+        <input type="checkbox" id="show" hidden onclick="leave2()">
+        <label for="show" class="close-btn fas fa-times" title="close" id="closelog"></label>
+        <div class="text">
+           Login Form
+        </div>
+        <form action="#">
+           <div class="data">
+              <label>Email or Phone</label>
+              <input type="text" required>
+           </div>
+           <div class="data">
+              <label>Password</label>
+              <input type="password" required>
+           </div>
+           <div class="forgot-pass">
+              <a href="#">Forgot Password?</a>
+           </div>
+           <div class="btn">
+              <div class="inner"></div>
+              <button type="submit">login</button>
+           </div>
+           <div class="signup-link">
+              Not a member? <a href="#">Signup now</a>
+           </div>
+        </form>
+     </div>
+
+     </div></header>
+      <div class="wrapper">
+         <input type="checkbox" id="btn" hidden>
+         <label for="btn" class="menu-btn" id="bars">
+         <i class="fas fa-bars" id="bars"></i>
+         <i class="fas fa-times" id="times"></i>
+         
+
+         </label>
+         
+         <nav id="sidebar">
+            <div class="title">
+               Menu
+            </div>
+           
+        
+            <ul class="list-items">
+               <li class="li1">
+                <a href="#" class="swbtn" >Sweet <span class="fas fa-caret-down" id="ch">
+          
+                </span></a> 
+                <ul class="sweet" >
+                <li class="item">
+                 <img  class="img" src="/Users/zaynebbouali/recipez/MAGICK CHOCOLATE CHIP COOKIES.jpeg" > <a href="#">Cookies </a>
+                 </li>
+                <li class="item">
+                  <img  class="img" src="/Users/zaynebbouali/recipez/cake.jpeg" > <a href="#">Cake</a>
+                </li>
+                <li class="item">
+                  <img  class="img" src="/Users/zaynebbouali/recipez/pls_ dont delete captions.jpeg"> <a href="#">Pasetry </a>
+                </li>
+                <li class="item">
+                  <img class="img" src="/Users/zaynebbouali/recipez/‣ や_ 𝙷𝚆𝙿𝙲𝚈﹒.jpeg"><a href="#">Other</a>
+                </li>
+              </ul>
+              </li>
+              
+             
+               <li class="li1">
+                <a href="#" class="sabtn">Savory <span class="fas fa-caret-down" id="ch">
+
+                </span></a>
+               <ul class="savory" class="ul">
+                <li class="item">
+                  <img class="img" src="/Users/zaynebbouali/recipez/_ (1).jpeg">
+                  <a href="#">Pasta</a>
+                  
+                </li>
+                <li class="item">
+                  <img class="img" src="katsu.jpeg">
+                  <a href="#">Rice</a>
+                </li>
+                <li class="item">
+                  <img class="img" src="/Users/zaynebbouali/recipez/50 Weird Fast-Food Menu Items You Can Only Get In Certain States.jpeg">
+                  <a href="#">Fast food</a>
+                </li>
+
+             
+                <li class="item">
+                  <img class="img" src="salad.jpeg">
+                  <a href="#">Salads</a>
+                </li>
+
+              </ul>
+            </li>
+
+            
+            <li class="li1">
+              <a href="#" class="vgbtn">Vegan <span class="fas fa-caret-down" id="ch">
+
+              </span></a>
+             <ul class="vegan" class="ul">
+              <li class="item">
+                <img class="img" src="vegan salad.jpeg">
+                <a href="#">Savory</a>
+              </li>
+              <li class="item">
+                <img class="img" src="snickers.jpeg">
+                <a href="#">Sweet</a>
+              </li>
+            </ul>
+          </li>
+          <li class="li1">
+            <a href="#" class="hebtn">Tunisian <span class="fas fa-caret-down" id="ch">
+
+            </span></a>
+           <ul class="healthy" class="ul">
+            <li class="item">
+              <img class="img" src="fricase.jpeg">
+              <a href="#">Street Food</a>
+            </li>
+            <li class="item">
+              <img class="img" src="Couscous.jpeg">
+              <a href="#">Meals</a>
+            </li>
+           
+          </ul>
+        </li>
+              
+                
+               <div class="icons">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-youtube"></i></a>
+               </div>
+            </ul>
+         </nav>
+      </div>
+     
+     
+      
+        
+        <nav id="sidebar2">
+          <input type="button" id="btn3" hidden onclick="leave()">
+          <label for="btn3" class="menu-btn2" id="bars">
+           <i class="fas fa-times" id="times2"></i>
+  
+          </label>
+           <div class="title">
+              Menu
+           </div>
+          
+       
+           <ul class="list-items">
+              <li class="li1">
+               <a href="#" class="swbtn" >Sweet <span class="fas fa-caret-down"id="ch">
+         
+               </span></a> 
+               <ul class="sweet" >
+               <li class="item">
+                <img  class="img" src="/Users/zaynebbouali/recipez/MAGICK CHOCOLATE CHIP COOKIES.jpeg" > <a href="#">Cookies </a>
+                </li>
+               <li class="item">
+                 <img  class="img" src="/Users/zaynebbouali/recipez/cake.jpeg" > <a href="#">Cake</a>
+               </li>
+               <li class="item">
+                 <img  class="img" src="/Users/zaynebbouali/recipez/pls_ dont delete captions.jpeg"> <a href="#">Pasetry </a>
+               </li>
+               <li class="item">
+                 <img class="img" src="/Users/zaynebbouali/recipez/‣ や_ 𝙷𝚆𝙿𝙲𝚈﹒.jpeg"><a href="#">Other</a>
+               </li>
+             </ul>
+             </li>
+             
+            
+              <li class="li1">
+               <a href="#" class="sabtn">Savory <span class="fas fa-caret-down" id="ch">
+
+               </span></a>
+              <ul class="savory" class="ul">
+               <li class="item">
+                 <img class="img" src="/Users/zaynebbouali/recipez/_ (1).jpeg">
+                 <a href="#">Pasta</a>
+                 
+               </li>
+               <li class="item">
+                 <img class="img" src="/Users/zaynebbouali/recipez/katsu curry rice.jpeg">
+                 <a href="#">Rice</a>
+               </li>
+               <li class="item">
+                 <img class="img" src="/Users/zaynebbouali/recipez/50 Weird Fast-Food Menu Items You Can Only Get In Certain States.jpeg">
+                 <a href="#">Fast food</a>
+               </li>
+
+             
+               <li class="item">
+                 <img class="img" src="salad.jpeg">
+                 <a href="#">Salads</a>
+               </li>
+
+             </ul>
+           </li>
+
+           
+           <li class="li1">
+             <a href="#" class="vgbtn">Vegan <span class="fas fa-caret-down" id="ch">
+
+             </span></a>
+            <ul class="vegan" class="ul">
+             <li class="item">
+               <img class="img" src="vegan salad.jpeg">
+               <a href="#">Savory</a>
+             </li>
+             <li class="item">
+               <img class="img" src="snickers.jpeg">
+               <a href="#">Sweet</a>
+             </li>
+           </ul>
+         </li>
+         <li class="li1">
+           <a href="#" class="hebtn">Tunisian <span class="fas fa-caret-down" id="ch">
+
+           </span></a>
+          <ul class="healthy" class="ul">
+           <li class="item">
+             <img class="img" src="fricase.jpeg">
+             <a href="#">Street Food</a>
+           </li>
+           <li class="item">
+             <img class="img" src="Couscous.jpeg">
+             <a href="#">Meals</a>
+           </li>
+          
+         </ul>
+       </li>
+              
+          
+ 
+               </ul>
+               </li>
+              <div class="icons">
+                 <a href="#"><i class="fab fa-facebook-f"></i></a>
+                 <a href="#"><i class="fab fa-twitter"></i></a>
+                 <a href="#"><i class="fab fa-youtube"></i></a>
+              </div>
+           </ul>
+        </nav>
+     </div> 
+    
+        
+     
+     <br><br><br><br><br><br><br><br><br><br>
+
+      <div class="content" id="r1">
+         <div class="intro">
+           <h2 id="h2"> Recipez</h2>
+           <p> Don't know what to cook ? we are here to help </p>
+           <input type="button" id="btn1" value="Explore" onclick="menu()" ondblclick="leave()" >
+           
+         </div>
+        <div id="latest">
+         <div id="divl"><h2> Latest </h2></div> 
+         <div class="image-container" id="image-container1">
+          <div class="column">
+            <img  src="falafel.jpeg" >
+            <figcaption><a  class="capt" href="VeganFalafel.html">Vegan Falafel</a></figcaption>
+          </div>
+          <div class="column">
+            <img  src="gigi.jpeg"  >
+            <figcaption><a class="capt" href="Gigihadidpasta.html">Viral Gigi Hadid Pasta</a></figcaption>
+          </div>
+          
+          <div class="column">
+            <img  src="soup.jpeg">
+            <figcaption><a class="capt" href="lasagnasoup.html">Tiktok Lasagna Soup</a></figcaption>
+          </div>
+
+        
+          
+        </div> 
+        </div>
+          
+          
+           <div class="container" id="container2">
+            <h2 id="divl"> Our favourite Desserts</h2>
+            <p id="p"> Click for Recipes 🍓</p>
+            <div class="slider">
+              <button id="slidebtn1" class="slide-button material-symbols-rounded"> chevron_left</button>
+              <div class="imglist">
+                <a href="brownie.html">
+                  <img src="brownie.jpeg" class="imgitem" title="Brownie Recipe" >
+                </a>
+                <a href="LemonCupcakes.html">
+                  <img src="lemon.jpeg" class="imgitem" title="Lemon Cupcakes Recipe" >
+                </a>
+
+                
+                <a href="Cookies.html">
+                  <img src="cookies.jpeg" class="imgitem" title="Cheesecake Cookies Recipe" >
+                </a>
+                
+                
+                <a href="Pancakes.html">
+                  <img src="pancakes.jpeg" class="imgitem" title="Fluffy Pancakes Recipe" >
+                </a>
+                
+                <a href="RedvelvetCake.html">
+                  <img src="rv.jpeg" class="imgitem" title="Red Velvet Cake Recipe" >
+                </a>
+               
+                <a href="lemontart.html">
+                  <img src="tart.jpeg" class="imgitem" title="Brownie Recipe" >
+                </a>
+                <a href="Eclair.html">
+                  <img src="choc.jpeg" class="imgitem" title="Eclair Recipe" >
+                </a>
+                <a href="StrawberryFilledPaestry.html">
+                  <img src="straw.jpeg" class="imgitem" title=" Strawberry Filled Paestry Recipe" >
+                </a>
+
+                <a href="CinnamonRoll.html">
+                  <img src="roll.jpeg" class="imgitem" title="Cinnamon Roll Recipe" >
+                </a>
+                <a href="BananaBread.html">
+                  <img src="banana.jpeg" class="imgitem" title="Banana Bread Recipe" >
+                </a>
+                
+               
+                
+
+              </div>
+              <button id="slidebtn2" class="slide-button material-symbols-rounded"> chevron_right</button>
+            </div>
+           
+           
+          </div>
+
+          <div class="recipescard">
+            <h3 > Explore More</h3>
+            <div class="image-container">
+              <div class="column"id="column">
+                <img  src="myrice.JPG" id="img1" >
+                <figcaption><a  class="caption" href="cauliflowerrice.html">Cauliflower Rice</a> <br> <i class="fas fa-clock"> 30mins </i></figcaption>
+              </div>
+              <div class="column"id="column">
+                <img  src="mine.JPG" id="img2" >
+                <figcaption><a class="caption" href="TomatoPasta.html">Tomato Pasta</a><br> <i class="fas fa-clock"> 15mins </i></figcaption>
+              </div>
+              
+              <div class="column" id="column">
+                <img  src="gnocchi.jpeg" id="img3">
+                <figcaption><a class="caption" href="CreamyGnocchi.html">Creamy Gnocchi From Scratch </a><br> <i class="fas fa-clock"> 40 mins </i></figcaption>
+              </div>
+    
+            
+              
+            </div> 
+            <div class="image-container" >
+              <div class="column"id="column">
+                <img  src="lentils.jpeg" id="img1" >
+                <figcaption><a  class="caption" href="lentils.html">Lentils dish</a> <br> <i class="fas fa-clock"> 20mins </i></figcaption>
+              </div>
+              <div class="column"id="column">
+                <img  src="salmonjpeg.jpeg" id="img2" >
+                <figcaption><a class="caption" href="salmon.html">Spicy Salmon With Rice</a><br> <i class="fas fa-clock"> 15mins </i></figcaption>
+              </div>
+              
+              <div class="column" id="column">
+                <img  src="tacos.jpeg" id="img3">
+                <figcaption><a class="caption" href="nachos.html">Homemade Nachos </a><br> <i class="fas fa-clock"> 30 mins </i></figcaption>
+              </div>
+    
+            
+              
+            </div> 
+            <div class="image-container" >
+              <div class="column"id="column">
+                <img  src="alfredo.jpeg" id="img1" >
+                <figcaption><a  class="caption" href="alfredo.html">Alfredo Shrimp Pasta</a> <br> <i class="fas fa-clock"> 15mins </i></figcaption>
+              </div>
+              <div class="column"id="column">
+                <img  src="katsu.jpeg" id="img2" >
+                <figcaption><a class="caption" href="katsu.html">Katsu Curry Rice</a><br> <i class="fas fa-clock"> 35mins </i></figcaption>
+              </div>
+              
+              <div class="column" id="column">
+                <img  src="pizza.jpeg" id="img3">
+                <figcaption><a class="caption" href="pizza.html">Pepperroni Pizza </a><br> <i class="fas fa-clock"> 30 mins </i></figcaption>
+              </div>
+          <hr>
+        
+
+                <div class="image-container" id="zz">
+                <h4 class="tunis">
+                  Special Tunisian Cuisine
+                </h4>
+                <div class="column"id="column">
+                  <img  src="couscous.jpeg" id="img1" >
+                  <figcaption><a  class="caption" href="Couscous.jpeg">Lamb Couscous</a> </figcaption>
+                </div>
+                <div class="column"id="column">
+                  <img  src="Oija.jpeg" id="img2" >
+                  <figcaption><a class="caption" href="oija.html">Oija</a></figcaption>
+                </div>
+                
+                <div class="column" id="column">
+                  <img  src="Tajine.jpeg" id="img3">
+                  <figcaption><a class="caption" href="Tajine.html">lamb tajine </a></figcaption>
+                </div>
+                
+                <div class="image-container" id="zz">
+                  <hr>
+                  <h4 class="tunis">
+                    Local Street Food
+                  </h4>
+                  <div class="column"id="column">
+                    <img  src="fricase.jpeg" id="img1" >
+                    <figcaption><a  class="caption" href="fricase.html">Fricase</a> </figcaption>
+                  </div>
+                  <div class="column"id="column">
+                    <img  src="mlewi.jpeg" id="img2" >
+                    <figcaption><a class="caption" href="mlewi.html">Mlewi Sandwich</a></figcaption>
+                  </div>
+                  
+                  <div class="column" id="column">
+                    <img  src="lablebi.jpeg" id="img3">
+                    <figcaption><a class="caption" href="lablebi.html">Lablebi </a></figcaption>
+                  </div>
+              
+                
+              </div> 
+              
+            </div> 
+            </div>
+              
+           
+        </div>
+        </div>
+    <div id="r2">
+
+    </div>
+       
+          </div>
+
+
+    
+      
+
+
+
+
+       
+    
+    
+    
+
+    
+      
+     
+      <script>
+       $('.swbtn').click(function(){
+        $('nav ul .sweet').toggleClass("show");
+       });
+       $('.sabtn').click(function(){
+        $('nav ul .savory').toggleClass("show1");
+       });
+       $('.vgbtn').click(function(){
+        $('nav ul .vegan').toggleClass("show2");
+       });
+       $('.hebtn').click(function(){
+        $('nav ul .healthy').toggleClass("show3");
+       });
+       $('.labtn').click(function(){
+        $('nav ul .lang').toggleClass("show4");
+       });
+
+
+      </script>
+   </body>
+</html>
